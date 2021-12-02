@@ -320,15 +320,12 @@ ul {
   width: 538px;
   background-color: #fff;
   -webkit-border-radius: 50px;
-  border-radius: 50px;
-  -webkit-box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
-  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+  
 }
 
 .card img {
   width: 100%;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+ 
 }
 
 .card-body {
@@ -408,11 +405,9 @@ ul {
 
   margin: 10px;
   padding: 20px 15px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
+
   background: #ffffff;
-  -webkit-box-shadow: 6px 6px 17px #adadad, -6px -6px 17px #ffffff;
-  box-shadow: 6px 6px 17px #adadad, -6px -6px 17px #ffffff;
+  
 }
 
 .finance-title {
@@ -556,6 +551,11 @@ a {
 
 /*gol section*/
 
+.banner-polo{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assets/vwpolo1-1200x800.jpg") ;
+  background-position: 50% 50%;
+}
+
 .banner-gol {
   margin-top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -568,7 +568,6 @@ a {
   width: 100%;
 
   background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -600,6 +599,9 @@ a {
   padding: 10px 0;
   font-size: 1.8rem;
   font-weight: 400;
+}
+.modelo-cuota.bold{
+  font-weight: 800;
 }
 
 .banner-form {
@@ -679,14 +681,19 @@ a {
   line-height: 1.6;
 }
 
+
+
 .model-img {
   width: 570px;
   height: 295px;
 }
+.model-min-width{
+  min-width: 570px;
+}
 /* Model Version */
-.model-version {
+.model-version-polo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/volkswagen-gol-2020-1-1600x1067.jpeg");
+    url("./assets/03-polo-high-estatica-frente-low-1072x589.jpg");
   min-height: 290px;
   background-size: 1360px 290px;
   background-position: 50% 50%;
@@ -716,7 +723,7 @@ a {
   position: relative;
   padding: 10px 20px;
   color: #ffffff;
-  background: var(--blue-vw);
+  background: var(--light-blue-vw);
   transition: ease-in 0.5s;
   cursor: pointer;
 }
@@ -750,7 +757,7 @@ a {
 }
 
 .accordion .version-box.active .content-version {
-  height: 200px;
+  height: 270px;
   overflow: hidden;
   padding: 10px;
 }
