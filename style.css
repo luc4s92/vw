@@ -560,13 +560,10 @@ a {
   margin-top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/1366-2000-1366x768.jpg");
-
-  /*height: 100vh;*/
 }
 
 .parallax {
   width: 100%;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
